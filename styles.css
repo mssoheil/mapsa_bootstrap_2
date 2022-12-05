@@ -1,0 +1,33 @@
+.wrapper {
+    padding: 20px;
+}
+
+.custom-card {
+    border-radius: 6px;
+    border: 0.1px solid #aaa;
+    overflow: hidden;
+    width: 30%;
+}
+
+.custom-card__image {
+    width: 100%;
+}
+
+.custom-card__body,
+.custom-card__footer {
+    padding: 10px;
+}
+
+.custom-card__footer {
+    background: #eee;
+    border-top: 0.2px solid #ccc;
+}
+
+.custom-card__footer button {
+    width: 100%;
+    background: rgb(24, 108, 24);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+}
